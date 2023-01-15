@@ -1,0 +1,115 @@
+@keyframes
+	fadein {
+		from {opacity:0;}
+		to {opacity:1;}
+	}
+@keyframes
+	blink {from
+		{opacity:0;}
+		50% {opacity:1;}
+		to {opacity:0;}
+	}
+
+
+
+body {
+	padding: 5vh 20vw;
+	background-color:  #141414;
+	font-family: 'consolas', monospace;
+}
+
+* {
+  font-feature-settings: "liga" 0;  
+  cursor: url(/assets/cursors/crosshair-cursor-0_2.png), url(/assets/cursors/crosshair-cursor-0_2.svg) 10 10, crosshair;
+}
+
+::selection {
+	background: #FF481B;
+	color:black;
+  }
+
+a {text-decoration: none;
+	cursor: url(/assets/cursors/x-cross-cursor.png), url(/assets/cursors/x-cross-cursor.svg) 10 10, crosshair;
+}
+
+.hero-img {
+	animation: fadein 2s;
+	width: 100%;
+	height: auto;
+}
+
+#titlestuff{
+	color: #FF481B;
+	font-size: 26px;
+}
+
+.construction-text{
+	font-size: 20px;
+	padding-right:50%;
+}
+
+.subhead{
+	font-size: 17px;
+	color: #FF481B;
+}
+.content {
+	height: auto;
+	font-size: 25px;
+	color: #999999;
+	animation: fadein 4s;
+	}
+
+	.content p {
+		margin-bottom: auto;
+	}
+			  
+	.content a {
+		color: #999999;
+	}
+
+	.content a:hover {
+		color: #FF481B;
+		transition: 0.2s;
+	}
+.socials {
+	margin-bottom: 50px;
+	padding-left: 0.5%;
+}
+
+.email{
+	color: #FF481B;
+}
+
+.underscore-thing {
+	animation: blink 1.5s infinite;
+	color: #FF481B;
+}
+
+.statement{
+	font-size: 14px;
+	padding-right:50%;
+	margin-bottom: 50px;
+	
+}
+.egg p.foot-thing {
+	animation: fadein 8s;
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 10;
+    opacity: 0.4;
+	padding-top: 50px;
+	padding-bottom:  50px;
+}
+
+    .egg p.foot-thing a {
+      color: #999999; 
+	}
+	.egg p.foot-thing a:hover {
+	    color: #373737; 
+	}
+
+
+	#script-thing{
+		overflow-x: hidden;
+		overflow-y: hidden;
+	  }
